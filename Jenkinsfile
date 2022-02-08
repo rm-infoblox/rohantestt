@@ -4,7 +4,9 @@ pipeline {
     stages {
         stage('Hello') {
             steps {
-                echo "WE ARE RUNNING THIS $Program"
+                echo "SELECTED PROGRAM :  $Program"
+                echo '----------------------------'
+                echo "SELECTED NAME    :  $Program"
                 echo '----------------------------'
             }
         }
