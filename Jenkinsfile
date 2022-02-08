@@ -6,7 +6,7 @@ pipeline {
             steps {
                 echo "SELECTED PROGRAM :  $Program"
                 echo '----------------------------'
-                echo "SELECTED NAME    :  $Program"
+                echo "SELECTED NAME    :  $Name"
                 echo '----------------------------'
             }
         }
